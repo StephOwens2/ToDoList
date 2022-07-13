@@ -1,7 +1,10 @@
+using ToDoList.WebSite.Services;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddTransient<JsonFileItemService>();
 
 var app = builder.Build();
 

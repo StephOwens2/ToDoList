@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "description": "Program for 20 minutes",
+    "done": false
+  },
+  {
+    "id": 2,
+    "description": "Dishes",
+    "done": true
+  },
+  {
+    "id": 3,
+    "description": "Laundry",
+    "done": true
+  }
+]
